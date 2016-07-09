@@ -28,9 +28,6 @@ img {
 header nav {
   float: right;
   background-color: #C42847;
-  position: relative;
-  top: auto;
-  bottom:50%;
 }
 
 header h2,
