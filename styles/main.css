@@ -16,7 +16,7 @@ h1 {
 }
 
 header {
-  background: #C42847;
+  background-color: #DE3C4B;
   display: inline-block;
   width: 100%;
 }
@@ -27,6 +27,18 @@ img {
 
 header nav {
   float: right;
+  background-color: #C42847;
+  position: relative;
+  top: auto;
+  bottom:50%;
+}
+
+header h2,
+header li {
+  display:inline-block;
+}
+header ul {
+  margin-right: 2rem;
 }
 
 .main-img {
