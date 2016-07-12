@@ -1,3 +1,9 @@
+/*
+  =========================
+          everything
+  =========================
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -6,12 +12,23 @@
 *::after {
   clear: both;
 }
+/*
+  =========================
+            main
+  =========================
+*/
 
 body {
   background-color: #4C98AF;
   font-family: Helvetica, "sans serif";
   font-size: 14px;
 }
+
+/*
+  =======================
+    Header and Footer
+  =======================
+*/
 
 header,
 footer {
@@ -63,6 +80,18 @@ h2 {
   margin-top: 0;
 }
 
+/*
+  =========================
+          Images
+  =========================
+*/
+
+article img {
+  border: 2px solid #333;
+  float: left;
+  padding: 1px;
+}
+
 img {
   margin: 1rem;
 }
@@ -70,6 +99,12 @@ img {
 .main-img {
   float:right;
 }
+
+/*
+  ========================
+          Articles
+  ========================
+*/
 
 section {
   display: inline-block;
@@ -87,18 +122,18 @@ article p::first-letter {
   font-weight: bold;
 }
 
-article img {
-  border: 2px solid #333;
-  float: left;
-  padding: 1px;
-}
-
 article a {
   font-weight: lighter;
   font-size: 0.7rem;
   color: #093278;
   float: right;
 }
+
+/*
+  =========================
+          Footer
+  =========================*/
+
 
 footer {
   margin-top: 3rem;
